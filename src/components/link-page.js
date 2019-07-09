@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from "axios";
 
-// import Home from "./home";
 import LinkUrl from "./link-url";
 
 export default class LinkPage extends Component {

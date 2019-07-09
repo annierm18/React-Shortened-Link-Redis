@@ -1,11 +1,8 @@
 import React from "react";
-// import Linkify from 'react-linkify';
 
 export default function(props) {
     
     const externalUrl =  props.value;
-    // <Linkify>{props.value}</Linkify>
-    console.log(externalUrl);
 
     return (
         <div className="link-list-container">

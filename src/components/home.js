@@ -39,7 +39,6 @@ export default class Home extends Component {
 
     handleSubmit(event) {
         console.log("Handle submit", event);
-        // console.log(event.target.value);
         
         axios.post('http://localhost:3002/url/addUrl', 
             { url: this.state.link }
