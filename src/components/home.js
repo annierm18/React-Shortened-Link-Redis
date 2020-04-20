@@ -66,6 +66,7 @@ export default class Home extends Component {
             <div>
                 
                 <h1 className="title">Redis Link Shortener</h1>
+                <p className="description">Enter a long link and press the button to receive a shortened link. Head to the Links tab to view a list of the links you've entered!</p>
 
                 <form onSubmit={this.handleSubmit} className="form-template">
                     <input 
